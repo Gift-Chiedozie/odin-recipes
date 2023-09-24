@@ -4,28 +4,168 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Version of Odin Recipes</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins"/>
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/buttermilk" />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </head> 
 <body>
-    <div>
-        <h1>My Nigerian Spaghetti Recipes</h1>
-    </div>
-    <div>
-        <p>Hi there! are you a lover of spaghetti? And you've been wondering how many other ways you could make this favourite dish of yours become the most favourite? Or are you simply a lover of food, seeking for new dishes to try? <br> Heck! you could even simply be someone who has not got the slioghtest idea on to cook, and is just looking for something simple and easy to start with.</p>
-        <p>Here I have very sumptous and enticing recipes for four different methods to preparing your favorite, quick and easy spaghetti meal.</p>
-        <p>Brought to you from none other than the beautiful Nigerian cuisine.</p>
-        <p>The links below will direct you to four different dishes that you can easily prepare using spaghetti, which you can shortly called spag. You can't afford to miss this pot of goodness, it will end up being a matter of cook one, cook all.</p>
-        <p>Check it out now:</p>
+    <div class="top-bar">
+        <span><ion-icon name="call-outline"></ion-icon>0904 777 3390</span>
         <ul>
-            <li>Click if you would like to try out <a href="./recipes/fried_spaghetti.html">Fried Spaghetti</a></li>
-            <li>Won't you want to know what <a href="./recipes/jellof_spaghetti.html">jellof spaghetti</a> would taste like?</li> 
-            <li>Try out our Nigerian specially flavoured version of <a href="./recipes/spaghetti_bolognese.html">spaghetti bolognese</a></li>
-            <li>You think you've had all of it, till you try out <a href="./recipes/stir-fry_spaghetti.html">stir fries</a></li>
-            <li>Lastly, I can't leave you without giving you something to step down your food with. You can have any chilled drink of choice or make your own <a href="./recipes/yoghurt.html">yoghurt</a>, and you can thank me later</li>
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
         </ul>
-            <p><em>Learn to love and add flavour and spice to your life with all our variety dishes.</em></p>
     </div>
+
+    <nav>
+        <a href="#"><div class="logo"><img src="./assets/odin-logo.jpg" alt="odin logo"></div></div></a>
+        <div class="toggle">
+            <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+        </div>
+        <ul class="menu active">
+            <li><a href="#"></a>Home</li>
+            <li><a href="#"></a>Recipes</li>
+            <li><a href="#"></a>Blog</li>
+            <li><a href="#"></a>Contact Us</li>
+            <li><a href="#"></a>Sign Up</li>
+        </ul>
+    </nav>
+
     
+    <div class="banner">
+        <h1>My Nigerian Spaghetti Recipes</h1>
+        <p class="motto">Treats and sweetness galore</p>
+    </div>
+
+    <div class="fancy-label">
+        <div class="label-text">Nigerian Cuisine's</div>
+    </div>
+
+    <main>
+        <section class="about">
+            <p><p>Hi there! and welcome to our food website where we explore delicious Nigerian cuisine. We are passionate about sharing the rich flavors and recipes from Nigeria. Today's big chop is <b>SPAGHETTI!!!</b>
+            <p>So, are you a lover of spaghetti? and you've been wondering how many other ways you could make this favourite dish of yours become the most favourite? Or are you simply a lover of food, seeking for new dishes to try? <br> Heck! you could even simply be someone who has not got the slightest idea on how to cook, and you're just looking for something simple and easy to start with.</p>
+            <p>Whatever may be the case, here I have very sumptous and enticing recipes for four different methods to preparing your favorite, quick and easy spaghetti meal.</p>
+            <p>Brought to you from none other than the beautiful Nigerian cuisine.</p>
+            <p>Below are sample glimpse that will leave you begging for more, as you take a wild tour to four different dishes that you can easily prepare using spaghetti, which you can shortly called spag. You can't afford to miss this pot of goodness, it will end up being a matter of cook one, cook all.</p>
+        </section>
+
+        <h2>Featured Recipes</h2>
+
+        <section class="all-recipes">
+            <a href="./recipes/fried_spaghetti.html">
+                <div class="recipe">
+                    <div class="txt-left">
+                        <h3>Fried Spaghetti</h3>
+                        <p class="time"><ion-icon name="time-outline"></ion-icon>1hour 25minutes</p>
+                        <p>Fried rice is sweet, but swap the main ingredient for spaghetti, and taste the difference!
+                        <br>Click if you would like to try out Fried Spaghetti</p>
+                    </div>
+                    <div class="img-right">
+                        <img class="image" src="./assets/Nigerian-fried-Spaghetti-220x187.webp" alt="Recipe 1">
+                    </div>
+                </div>
+            </a>
+            <a href="./recipes/jellof_spaghetti.html">
+                <div class="recipe">
+                    <div class="img-left">
+                        <img src="./assets/Jollof-Spaghetti-recipe.webp" alt="Recipe 2">
+                    </div>
+                    <div class="txt-right">
+                        <h3>Jellof Spaghetti</h3>
+                        <p class="time"><ion-icon name="time-outline"></ion-icon>1hour 20minutes</p>
+                        <p>Won't you want to know what Jellof spags would taste like?
+                        <br>Its a combo of fresh blends tomatoes and pepper and onions.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="./recipes/spaghetti_bolognese.html">
+                <div class="recipe">
+                    <div class="txt-left">
+                        <h3>Spaghetti Bolognese</h3>
+                        <p class="time"><ion-icon name="time-outline"></ion-icon>1hour 15minutes</p>
+                        <p>Try out our Nigerian specially flavoured version of Spaghetti bolognese,
+                        <br>don't think that yo know it unto you have tried it.</p>
+                    </div>
+                    <div class="img-right">
+                        <img class="image" src="./assets/bolognese_spaghetti.jpg" alt="Recipe 3">
+                    </div>
+                </div>
+            </a>
+            <a href="./recipes/stir-fry_spaghetti.html">
+                <div class="recipe">
+                    <div class="img-left">
+                        <img class="image" src="./assets/Veggie-Stir-Fry-Pasta.jpg" alt="Recipe 4">
+                    </div>
+                    <div class="txt-right">
+                        <h3>Stir-Fries</h3>
+                        <p class="time"><ion-icon name="time-outline"></ion-icon>1hour 20minutes</p>
+                        <p>You think you've had all of it, till you try out stir-fries.
+                        <br>They are perfect for lovers of fresh veggies that haven't been overcooked.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="./recipes/yoghurt.html">
+                <div class="recipe">
+                    <div class="txt-left">
+                        <h3>Yoghurt</h3>
+                        <p class="time"><ion-icon name="time-outline"></ion-icon>30minutes</p>
+                        <p>Lastly, I can't leave you without giving you something to step down your food with.
+                        <br>You can have any chilled drink of choice or make your own.
+                        <br>and you can thank me later!</p>
+                    </div>
+                    <div class="img-right">
+                        <img class="image" src="./assets/yoghurt.jpg" alt="Yoghurt">
+                    </div>
+                </div>
+            </a>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <p>Contact Address: Allen-Ave Ikeja, Lagos, Nigeria</p>
+        </div>
+        <div class="author-info">
+            <p>Author: Chinweokwu Gift Chiedozie</p>
+            <p class="copy">&copy; All rights reserved September, 2023</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $(function(){
+            // Check if the menu state is stored in localStorage
+            const isMenuOpen = localStorage.getItem('menuOpen') === 'true';
+          
+            // Set the initial state of the menu based on localStorage
+            if (isMenuOpen) {
+              $(".menu").addClass("active");
+              $(".toggle").find("a").html("<ion-icon name='close-outline'></ion-icon>");
+            } else {
+              $(".menu").removeClass("active");
+              $(".toggle").find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+            }
+          
+            // Toggle the menu and update localStorage when the toggle button is clicked
+            $(".toggle").on("click", function() {
+              if ($(".menu").hasClass("active")) {
+                localStorage.setItem('menuOpen', 'false');
+                $(".menu").removeClass("active");
+                $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+              } else {
+                localStorage.setItem('menuOpen', 'true');
+                $(".menu").addClass("active");
+                $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+              }
+            });
+          });
+                   
+    </script>
 
 </body>
 </html>
