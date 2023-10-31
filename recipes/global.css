@@ -45,25 +45,35 @@ a, a:hover {
 header {
     background-color: #1d1d1d;
     color: #fff;
-    padding: 20px;
+    padding: 20px 40px;
 }
 
 .header {
-    margin-left: 200px;
-    margin-top: -20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+div.header.inner {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 header h1 {
     font-size: 50px;
-    margin-bottom: 0;
+    margin: 0;
+    line-height: 1.5px;
 }
 
 header p {
     font-style: italic;
     color: #ffd700;
     font-family: 'buttermilk', 'Poppins', sans-serif;
+    height: fit-content;
+    margin-top: 10px;
 }
 
-.recipe-container {
+header .recipe-container {
     display: flex;
     padding: 10px;
     background-color: #fbf5d3;
@@ -82,11 +92,7 @@ header p {
     object-fit: cover;
     width: 150px;
     height: 150px;
-    display: block;
     margin: 0 auto;
-    position: absolute;
-    top: 15px;
-    left: 50px;
     border-radius: 50%;
 }
 
